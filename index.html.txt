@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CQWU - 欢迎来到CQWU大学</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .logo {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #004080;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .motto {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f5f5f5;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .motto-text {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #003366;
+        }
+        .author {
+            text-align: right;
+            font-style: italic;
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 30px;
+        }
+        .news-section, .about-section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">CQWU</div>
+        <div>重庆文理学院</div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">学校概况</a></li>
+            <li><a href="#academics">教育教学</a></li>
+            <li><a href="#research">科学研究</a></li>
+            <li><a href="#admission">招生就业</a></li>
+            <li><a href="#campus">校园生活</a></li>
+            <li><a href="#contact">联系我们</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="home" class="motto">
+            <div class="motto-text">进德修业，博文达理</div>
+            <div class="author">XUPENGYU</div>
+        </section>
+        
+        <section class="news-section">
+            <h2>新闻动态</h2>
+            <ul>
+                <li><a href="#">CQWU举办2023年毕业典礼</a> - 2023-06-15</li>
+                <li><a href="#">我校学生在全国大学生竞赛中荣获一等奖</a> - 2023-05-20</li>
+                <li><a href="#">国际学术研讨会在我校成功举办</a> - 2023-04-10</li>
+                <li><a href="#">校园开放日邀请函</a> - 2023-03-25</li>
+            </ul>
+        </section>
+        
+        <section id="about" class="about-section">
+            <h2>学校简介</h2>
+            <p>CQWU是一所综合性大学，创建于1978年，坐落于美丽的山城重庆。学校秉承"进德修业，博文达理"的校训，致力于培养德才兼备的高素质人才。</p>
+            <p>学校现有教职工1500余人，全日制在校生20000余人，设有20个学院，涵盖文、理、工、管、法、教育、艺术等多个学科门类。</p>
+            <p><a href="#">了解更多关于学校的历史与现状...</a></p>
+        </section>
+        
+        <section class="quick-links">
+            <h2>快速链接</h2>
+            <div>
+                <a href="#">教务系统</a> | 
+                <a href="#">图书馆</a> | 
+                <a href="#">电子邮件</a> | 
+                <a href="#">校园地图</a> | 
+                <a href="#">校历</a> | 
+                <a href="#">人事处</a>
+            </div>
+        </section>
+    </div>
+    
+    <footer>
+        <p>版权所有 © 2023 CQWU 重庆文理学院 | 地址：重庆市永川区红河大道319号 | 邮编：402160</p>
+        <p>电话：023-4989XXXX | 传真：023-4989XXXX | 邮箱：info@cqwu.edu.cn</p>
+    </footer>
+</body>
+</html>
